@@ -107,7 +107,7 @@ main (int argc, char *argv[])
    }
 
    /*-------------------------------------
-		        Encoding process
+	       Encoding process
    --------------------------------------*/
    encoding();
    return(0);
@@ -251,12 +251,12 @@ void fexists (char *fname)
 -----------------------*/
 void msg_title(void)
 {
-    printf         ("\n**************************************************");
-    fprintf (stderr,"\n(c) Copyright by S.Gasanov, August, 1995, v1.0");
-    fprintf (stderr,"\nUkrainian, Kiev, KM STUDIO, tel/fax:(044)224-67-96");
-    fprintf (stderr,"\nEncoding PostScript fonts type 3 (PFA)");
-    fprintf (stderr,"\nUSAGE: fcode.exe input_pfa [output_pfa]");
-    printf         ("\n**************************************************");
+    printf("\n**************************************************");
+    fprintf(stderr,"\n(c) Copyright by S.Gasanov, August, 1995, v1.0");
+    fprintf(stderr,"\nUkrainian, Kiev, KM STUDIO, tel/fax:(044)224-67-96");
+    fprintf(stderr,"\nEncoding PostScript fonts type 3 (PFA)");
+    fprintf(stderr,"\nUSAGE: fcode.exe input_pfa [output_pfa]");
+    printf("\n**************************************************");
     printf("\nGoodbye...\n");
     exit(1);
 }
