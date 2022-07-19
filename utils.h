@@ -1,6 +1,6 @@
 //****************************** 
 // utils.h
-// ั++ | Visual Studio 2019 
+// ะก++ | Visual Studio 2019 
 //****************************** 
 // Writing by sgiman @ 2022
 
@@ -16,7 +16,7 @@
 using namespace std;
 
 /*------------------
-	   MyDate
+       MyDate
 -------------------*/
 // For current Date
 struct tm newtime;
@@ -40,4 +40,3 @@ void MyDate()
 	printf("Current date and time: %s", buffer);
 	cout << "**************************************************************\n";
 }
-
