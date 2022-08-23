@@ -45,18 +45,18 @@ static  char *file_in, *file_out;
 static  FILE *fin, *fout, *ftmp;	/* Descriptors working files */
 
 /*================================
-			 M A I N
+              M A I N
 =================================*/
 main (int argc, char *argv[])
 {
    
-	int i;
+   int i;
 	
-	//====== PAUSE TIME ======
-	fprintf (stderr, "******************************\n");	
-	fprintf (stderr, "  PRESS ANY KEY TO CONTINUE!\n");	
-	fprintf (stderr, "******************************\n");	
-	system("pause");
+   //====== PAUSE TIME ======
+   fprintf (stderr, "******************************\n");	
+   fprintf (stderr, "  PRESS ANY KEY TO CONTINUE!\n");	
+   fprintf (stderr, "******************************\n");	
+   system("pause");
 
    /* Testing arguments */
    if (argc < 2)  msg_title();						/* If not arguments */
@@ -112,7 +112,7 @@ main (int argc, char *argv[])
    encoding();
    return(0);
 
-} //******* M A I N  E N D *******
+} //******* M A I N - E N D *******
 
 
 /*----------------------- 
